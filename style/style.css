@@ -1,6 +1,5 @@
 /* Reset style */
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500;600;700;800&display=swap');
 * {
     margin: 0;padding: 0;box-sizing: border-box;
     font-family: "Open Sans", sans-serif;
@@ -37,7 +36,6 @@ button:hover {
 /* Contact bar */
 .contact-bar {
     background: var(--bgClor-primary);
-    /* padding: 1rem 0; */
 }
 .contact-contents {
     display: flex;
@@ -82,4 +80,34 @@ button:hover {
 }
 .social a:last-child {
     border-right: .1rem solid #ccc;
+}
+
+/* Nav bar  */
+nav {
+    background: var(--bgClor-secondary);
+}
+nav .nav-contents {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0;
+}
+.nav-contents ul {
+    display: flex;
+    list-style: none;
+}
+.nav-contents ul a {
+    text-decoration: none;
+    color: var(--heading-primary);
+    display: block;
+    padding: 10px;
+    font-size: 1.6rem;
+    font-weight: bold;
+    transition: .3s ease;
+}
+.nav-contents ul a:hover {
+    color: var(--btnBg);
+}
+.nav-contents ul a i {
+    font-size: 1.8rem;
 }

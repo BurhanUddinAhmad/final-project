@@ -137,3 +137,55 @@ nav .nav-contents {
     line-height: 4rem;
     margin-bottom: 2rem;
 }
+
+/* Services section  */
+#services {
+    background: var(--bgClor-primary);
+    padding: 8rem 0;
+}
+.service-contents {
+    display: flex;
+    justify-content: space-between;
+}
+.service-item {
+    flex-basis: 24%;
+    background: var(--bgClor-secondary);
+    padding: 3rem;
+    text-align: center;
+    border-radius: .5rem;
+    transition: .3s ease;
+}
+.service-item div i {
+    font-size: 4rem;
+    color: var(--btnBg);
+    margin-bottom: 1rem;
+}
+.service-item h3 {
+    font-size: 2rem;
+    color: var(--btnHover);
+    margin-bottom: 1rem;
+}
+.service-item p {
+    font-size: 1.6rem;
+    color: var(--pClor);
+    line-height: 2.8rem;
+    margin-bottom: 2rem;
+}
+.service-item a {
+    text-decoration: none;
+    font-size: 1.6rem;
+    color: var(--btnBg);
+}
+.service-item a i {
+    font-size: 2rem;
+    margin-left: 1rem;
+}
+.service-item:hover {
+    background: var(--btnBg);
+}
+.service-item:hover i,
+.service-item:hover h3, 
+.service-item:hover p,
+.service-item:hover a {
+    color: white;
+}

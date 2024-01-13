@@ -16,6 +16,15 @@
         font-size: 1.6rem;
         line-height: 2.6rem;
     }
+    .service-contents {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        row-gap: 2rem;
+    }
+    .service-item {
+        flex-basis: 48%;
+    }
 }
 
 /* For Medium devices */
@@ -35,5 +44,14 @@
     .hero-contents p {
         font-size: 2rem;
         line-height: 3rem;
+    }
+    .service-contents {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        row-gap: 2rem;
+    }
+    .service-item {
+        flex-basis: 48%;
     }
 }

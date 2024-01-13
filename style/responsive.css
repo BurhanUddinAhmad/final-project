@@ -1,0 +1,39 @@
+/* For Small devices  */
+@media screen and (max-width: 576px) {
+    .contact-bar {
+        display: none;
+    }
+    nav .nav-contents {
+        flex-direction: column;
+    }
+    .hero-contents {
+        width: 100%;
+    }
+    .hero-contents h1 {
+        font-size: 3rem;
+    }
+    .hero-contents p {
+        font-size: 1.6rem;
+        line-height: 2.6rem;
+    }
+}
+
+/* For Medium devices */
+@media only screen and (min-width: 576px) and (max-width: 992px) {
+    .contact-bar {
+        display: none;
+    }
+    nav .nav-contents {
+        flex-direction: column;
+    }
+    .hero-contents {
+        width: 100%;
+    }
+    .hero-contents h1 {
+        font-size: 4rem;
+    }
+    .hero-contents p {
+        font-size: 2rem;
+        line-height: 3rem;
+    }
+}

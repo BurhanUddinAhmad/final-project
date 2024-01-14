@@ -8,7 +8,7 @@
     --bgClor-secondary: #fff;
     --heading-primary: #000;
     --heading-secondary: #fff;
-    --pClor: #333333;
+    --pClor: #656565;
     --btnBg: #ff5200;
     --btnText: #fff;
     --btnHover: #252525;
@@ -17,6 +17,9 @@
     width: 80%;
     max-width: 114rem;
     margin: 0 auto;
+}
+section {
+    padding: 10rem 0;
 }
 button {
     display: block;
@@ -32,6 +35,19 @@ button {
 button:hover {
     background: var(--btnHover);
     cursor: pointer;
+}
+h2 {
+    font-size: 3.5rem;
+    font-weight: 700;
+    color: var(--heading-primary);
+    text-transform: uppercase;
+    margin-bottom: 2rem;
+}
+p {
+    font-size: 1.6rem;
+    color: var(--pClor);
+    line-height: 3rem;
+    margin-bottom: 2rem;
 }
 
 /* Contact bar */
@@ -141,7 +157,6 @@ nav .nav-contents {
 /* Services section  */
 #services {
     background: var(--bgClor-primary);
-    padding: 8rem 0;
 }
 .service-contents {
     display: flex;
@@ -188,4 +203,54 @@ nav .nav-contents {
 .service-item:hover p,
 .service-item:hover a {
     color: white;
+}
+
+/* Work with us  */
+.work-with-us-contents {
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+}
+.work-with-us-contents .photo {
+    flex-basis: 48%;
+    overflow: hidden;
+
+}
+.work-with-us-contents .photo img {
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    transition: transform .3s ease;
+}
+.work-with-us-contents .photo img:hover {
+    transform: scale(1.05);
+}
+.work-with-us-contents .work-with-our-team {
+    flex-basis: 48%;
+}
+.work-with-our-team .work-point {
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+}
+.work-with-our-team .work-point ul {
+    /* list-style-image: url('../images/grt.png'); */
+    list-style: none;
+    line-height: 3rem;
+    list-style-position: inside;
+    font-size: 1.6rem;
+}
+.work-with-our-team .work-point ul a {
+    font-size: 1.6rem;
+    color: var(--pClor);
+    text-decoration: none;
+    transition: .3s ease;
+}
+.work-with-our-team .work-point ul a i {
+    margin-right: 1rem;
+    font-size: 1.4rem;
+}
+.work-with-our-team .work-point ul a:hover {
+    color: var(--btnBg);
 }

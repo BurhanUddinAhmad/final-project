@@ -4,7 +4,8 @@
         display: none;
     }
     nav .nav-contents,
-    .work-with-us-contents {
+    .work-with-us-contents,
+    .achivement-contents {
         flex-direction: column;
     }
     .hero-contents,

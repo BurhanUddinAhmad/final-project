@@ -19,7 +19,7 @@
     margin: 0 auto;
 }
 section {
-    padding: 10rem 0;
+    padding: 9rem 0;
 }
 button {
     display: block;
@@ -253,4 +253,32 @@ nav .nav-contents {
 }
 .work-with-our-team .work-point ul a:hover {
     color: var(--btnBg);
+}
+
+/* achivement section */
+
+#achivement{
+    background: linear-gradient(to right, rgba(0,0,0, 0.6), rgba(0,0,0,0.1)), url('../images/customerNum.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: var(--heading-secondary);
+    text-align: center;
+}
+.achivement-contents {
+    display: flex;
+    justify-content: space-between;
+    gap: 3rem;
+}
+.achivement-details .icons i {
+    font-size: 4rem;
+    margin-bottom: 1rem;
+}
+.achivement-details h3 {
+    font-size: 4rem;
+    font-weight: 800;
+    margin-bottom: 1rem;
+}
+.achivement-details h4 {
+    font-size: 2rem;
 }

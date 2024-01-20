@@ -49,6 +49,30 @@ p {
     line-height: 3rem;
     margin-bottom: 2rem;
 }
+.section-heading {
+    text-align: center;
+    margin: 5rem auto;
+    max-width: 60rem;
+}
+.section-heading h2 {
+    position: relative;
+}
+.section-heading h2::after {
+    content: '';
+    position: absolute;
+    width: 8rem;
+    height: .3rem;
+    border-radius: .2rem;
+    background: var(--btnBg);
+    bottom: -1.5rem;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+.section-heading p {
+    margin-top: 3rem;
+}
+
 
 /* Contact bar */
 .contact-bar {
@@ -128,7 +152,10 @@ nav .nav-contents {
 .nav-contents ul a i {
     font-size: 1.8rem;
 }
-
+.bar  {
+    font-size: 3rem;
+    display: none;
+}
 /* Hero Section  */
 #hero {
     background: url('../images/slide-2.jpg');
@@ -281,4 +308,24 @@ nav .nav-contents {
 }
 .achivement-details h4 {
     font-size: 2rem;
+}
+
+/* more from us styling */
+#morefromus {
+    background: var(--bgClor-primary) ;
+}
+.morefromus-contents {
+    display: flex;
+    justify-content: space-between;
+    gap: 5rem;
+}
+.morefromus-contents .morefromus-card {
+    flex-basis: 25%;
+}
+.morefromus-contents .morefromus-card .img img {
+    width: 100%;
+}
+.morefromus-card h3 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
 }

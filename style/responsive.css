@@ -1,12 +1,16 @@
 /* For Small devices  */
 @media screen and (max-width: 576px) {
-    .contact-bar {
+    .contact-bar,
+    .nav-contents ul {
         display: none;
     }
-    nav .nav-contents,
     .work-with-us-contents,
-    .achivement-contents {
+    .achivement-contents, 
+    .morefromus-contents {
         flex-direction: column;
+    }
+    .bar {
+        display: block;
     }
     .hero-contents,
     .work-with-our-team .work-point {
@@ -21,7 +25,7 @@
     }
     .service-contents {
         display: flex;
-        justify-content: space-between;
+        justify-content: center;
         flex-wrap: wrap;
         row-gap: 2rem;
     }
@@ -57,5 +61,10 @@
     }
     .service-item {
         flex-basis: 48%;
+    }
+    .morefromus-contents {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 5rem;
     }
 }

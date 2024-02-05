@@ -329,3 +329,54 @@ nav .nav-contents {
     font-size: 1.8rem;
     margin-bottom: 1rem;
 }
+/* ======== Start Idea Section ========= */
+#idea {
+    display: flex;
+    margin: 80px 0; 
+}
+.ideaPic {
+    width: 70%;
+    background: url(../images/idea1.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.ideaContents {
+    background: #222222;
+    color: white;
+    padding: 35px;
+}
+.ideaContents h2 {
+    color: white;
+    text-transform: uppercase;
+}
+.ideaContents > p {
+    margin: 40px 0;
+    line-height: 1.7;
+    width: 80%;
+}
+.ideaList {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    row-gap: 40px;
+}
+.ideaItem {
+    display: flex;
+}
+.ideaIcon i {
+    color: #FF5200;
+    font-size: 50px;
+}
+.ideaTitle {
+    margin-left: 30px;
+}
+.ideaTitle h3 {
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+.ideaTitle p {
+    width: 80%;
+    line-height: 1.5;
+}
+/* ======== End Idea Section ========= */
